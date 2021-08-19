@@ -1,0 +1,126 @@
+<DOCTYPE HTML>
+<html>
+<head>
+
+<style>
+
+#header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+img#header-img {
+  width: 65px;
+  heigh: 56px;
+  position: absolute;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+li {
+  float: right;
+}
+li a {
+  display: block;
+  color: black;
+  font-family: arial, sans-serif;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+div {
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding: 70px;
+}
+div.video {
+  padding-top: 15px;
+}
+h3.sign-up {
+  font-family: arial, san-serif;
+  color: red;
+}
+p {
+  font-family: arial, sans-serif;
+  font-size: 2em;
+  color: blue;
+}
+div#mobo {
+  background-image: url("https://i.pinimg.com/originals/46/df/07/46df072f9e806ab8d08e6be0657eeaea.jpg");
+}
+h1.robot-name {
+  border: 2px dotted;
+}
+div#news {
+  background-color: pink;
+}
+div p#news {
+  color: black;
+}
+p.contact {
+  font-family: arial;
+  font-weight: normal;
+  color: black;
+  display: flex;
+}
+@media only screen and (orientation: landscape) {
+  body {
+    background-color: lightblue;
+  }
+}
+@viewport {
+  width: device-width;
+  zoom: 1.0;
+}
+
+</style>
+
+</head>
+
+<header id="header">
+<img src="https://i.cbc.ca/1.4445003.1513106351!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/woebot-fb-profile-pic.jpg"id="header-img">
+<nav id="nav-bar">
+<ul class="top">
+  <li><a class="nav-link" href="#contact">Contact</a></li>
+  <li><a class="nav-link" href="#news">News</a></li>
+  <li><a class="nav-link"  href="#mobo">Mobo</a></li>
+  </ul>
+</nav>
+</header>
+<div class="video">
+  <h1>Mobo</h1>
+  <h2>~~Your Pet Chatbot~~</h2>
+<iframe id="video" width="720" height="405"
+src="https://www.youtube.com/embed/iiMFRMoxxEI?controls=0&fs=0"
+frameborder="0"></iframe>
+</div>
+  <div>
+    <h1></h1>
+  <form id="form" action="https://www.freecodecamp.com/email-submit">
+  <h3 class="sign-up">Please sign up to join Beta!</h3>
+<label for="email"><b>Email:<b></label></br>
+  <input id="email" name="email" type="email" placeholder="Enter your email"></input><br/>
+  <input id="submit" type="submit" value="submit">
+  </form>
+</div>
+<br><br>
+<div id="mobo">
+  <h1 class="robot-name"><b>Mobo</b></h1>
+  <p><em>Mobo is a chatbox.<br>It is a chat pet.<br>It is also an application that can see emotions.</em></p>
+</div>
+<div id="news">
+  <p id="news"><span style="color:red">News:</span> Mobo is on a super awesome spaceship to earth.</p>
+</div>
+<div id="contact">
+  <p class="contact">Leave us your&nbsp<a href="#form">email</a>.
+  We'll get back to you ASAP! </p>
+</div>
+
+
+
+</html>
