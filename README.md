@@ -3,7 +3,7 @@
 I made these projects when taking Responsive Web Design on freeCodeCamp during the summer of 2020.
 
 
-Quokka - Tribute Page - CodeCamp Project 1
+<b>Quokka - Tribute Page - CodeCamp Project 1</b>
 
 Link: https://codepen.io/WinnieWendinH/full/NWNvZex
 
